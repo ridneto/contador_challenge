@@ -1,0 +1,74 @@
+@import url("global.css");
+
+body {
+    height: 100vh;
+    background: var(--background-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;   
+    width: 100%;
+    height: 130px;
+    padding: 30px;
+}
+
+.header p {
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.header a {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    line-height: 27px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: black;
+    background: var(--main-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+.header a:hover {
+    background: var(--main-color-light);
+}
+
+main > p {
+    color: var(--secundary-color);
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.container-counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.container-counter div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-counter div h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+.container-counter div p {
+    color: var(--main-color);
+    font-size: 20px;
+}
